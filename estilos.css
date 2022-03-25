@@ -1,0 +1,32 @@
+body{
+padding: 3em;
+background: url(https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(117, 99, 99);
+}
+
+label{
+    size: 25px;
+}
+
+
+legend
+{
+    color: rgb(102, 102, 114);
+    font-size: 1.3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+input:hover, select:hover 
+{
+    background-color: #4f81dd;
+}
+
+input:focus, select:focus 
+{
+    background-color: #58ebeb;
+}
