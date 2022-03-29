@@ -60,6 +60,8 @@ precio.onfocus = () =>{
     spanprecio.innerHTML = "el precio debe estar entre 1 millon y 50 millones";
 }
 
+ //Message
+ let message = document.getElementById('message') 
 
 let enviarButton = document.getElementById('btnEnviar')
 let buscarButton = document.getElementById('btnBuscar')
@@ -88,7 +90,7 @@ listarButton.addEventListener('click', ()=>{
             if(id_inmueble.value != 0 && direccion.value != "" && telefono.value != "" && precio.value != 0){
                 let inmmueble = {
 
-                    ID: parseInt(id_inmueble.value),
+                    id_inmueble: parseInt(id_inmueble.value),
                     direccion: direccion.value,
                     telefono: telefono.value,
                     precio: parseInt(precio.value),
