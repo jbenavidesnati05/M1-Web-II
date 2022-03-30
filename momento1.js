@@ -36,7 +36,45 @@ let inmmuebles = [
         telefono: "4625326",
         precio: 19100,
         estado: false 
-    }
+    },
+    {
+        ID: 6,
+        direccion: "cra 25-76",
+        telefono: "46252556",
+        precio: 1100,
+        estado: false 
+    },
+    {
+        ID: 7,
+        direccion: "cra 45-86",
+        telefono: "46252145",
+        precio: 900,
+        estado: false 
+    },
+    {
+        ID: 8,
+        direccion: "cra 85-86",
+        telefono: "46252569",
+        precio: 700,
+        estado: false 
+    },
+    {
+        ID: 9,
+        direccion: "cra 45-86",
+        telefono: "46252145",
+        precio: 900,
+        estado: false 
+    },
+    {
+        ID: 10,
+        direccion: "cra 102-6",
+        telefono: "46252455",
+        precio: 40,
+        estado: false 
+    },
+
+    
+    
     
     
 ]
@@ -267,7 +305,7 @@ function listarInmuebles(){
 
         document.getElementById("container").innerHTML = table
 
-        message.style.color = "green"
+        message.style.color = "blue"
         message.innerText = "Inmmuebles listados"
         setTimeout(()=> message.innerText = "", 3000)
         setTimeout(()=> message.style.color = "black", 4000)
